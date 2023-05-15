@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Playfair+Display&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="navbar__link"><a href="/index.html"><img class="logo" src="../img/Logo.png" ></img></a></li>
+            </ul>
+
+            <ul class="navbar">
+                <li class="navbar__link"><a href="./platos.html">Platos</a></li>    
+                <li class="navbar__link"><a href="./postres.html">Postres</a></li>    
+                <li class="navbar__link"><a href="./reservas.html">Hace tu reserva</a></li>
+                <li class="navbar__link"><a href="./nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo">Restaurante Miguel</h1>
+
+        <article>
+            <section>
+
+                <form action="" method="POST" enctype="" class="reserva">
+        
+                    
+                    <h1>Ingrese los siguientes datos para realizar la reserva</h1>
+                    <fieldset>
+                        <legend>Informacion necesaria</legend>
+                        <label for="nombre">Ingrese su nombre</label>
+                        <input class="comentario" type="text" id="nombre" placeholder="Carlos Fernandez" required >
+                        <br>
+                        <label for="mail"  class="pepe">Ingrese su mail</label>
+                        <input class="comentario" type="email" id="mail" placeholder="ejemplo@gmail.com"  class="pepe">
+                        <br>
+                        <p>Ubicacion
+                            <select class="comentario">
+                                <option value="">Salon principal</option>
+                                <option value="">Barra</option>
+                                <option value="">Afuera</option>
+                                <option value="">Arriba</option>
+                                <option value="">Subsuelo</option>
+                            </select>
+                        </p>
+                        <p>¿Son más de 10? <input type="checkbox"></p>
+                        
+                        <p>Momento
+                            <select class="comentario">
+                                <option value="">Almuerzo</option>
+                                <option value="">Desayuno</option>
+                                <option value="">Merienda</option>
+                                <option value="">Cena</option>
+                                <option value="">Post-cena</option>
+                            </select>
+                        </p>
+                        <textarea class="comentario" cols="30" rows="10" placeholder="Ingrese un comentario"></textarea>
+                        <br>
+                        <textarea class="comentario" cols="30" rows="10" placeholder="Si quiere un horario especifico indiquelo aquí."></textarea>
+                    </fieldset>
+        
+
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar">
+            
+                
+                </form>
+            </section>
+        </article>
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="division">
+                <section>
+                <img src="../img/Logo.png" alt="">
+                
+                </section>
+            </div>
+
+            <div class="division medio">
+                <section>
+                    <nav>
+                        <ul class="nav footerNavbar">
+                            <li><a href="/mi-proyecto/index.html">Inicio</a></li>
+                            <li><a href="/mi-proyecto/assets/pages/platos.html">Platos</a></li>    
+                            <li><a href="/mi-proyecto/assets/pages/postres.html">Postres</a></li>    
+                            <li><a href="/mi-proyecto/assets/pages/reservas.html">Hace tu reserva</a></li>
+                            <li><a href="/mi-proyecto/assets/pages/nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+
+            <div class="division">
+                <div class="contacto">
+                    <a href=""><img src="../img/icon_bord_white_facebook.png" alt=""></a>
+                    <a href=""><img src="../img/icon_bord_white_instagram.png" alt=""></a>
+                    <a href=""><img src="../img/icon_bord_white_twitter.png" alt=""></a>
+                </div>
+            </div> 
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
