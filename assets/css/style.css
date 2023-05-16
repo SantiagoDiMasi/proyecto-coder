@@ -39,6 +39,13 @@ header li {
   border-radius: 10%;
   display: flex;
   align-items: center;
+  transition: 0.5s;
+}
+
+li:hover {
+  color: gold;
+  background-color: beige;
+  transform: scale(1.2);
 }
 
 header ul.nav li img {
@@ -56,6 +63,7 @@ header ul.nav li img {
     "informacion-especial informacion-especial especial"
     "informacion-especial informacion-especial especial";
   margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .title {
