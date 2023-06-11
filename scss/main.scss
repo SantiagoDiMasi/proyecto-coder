@@ -5,7 +5,7 @@ $background-color_2: rgba(12, 77, 41, 0.889);
 $background-color_3: goldenrod;
 $background-color_4: beige;
 $background-color_5: aquamarine;
-$background-color_6: brown;
+$background-color_6: rgb(51, 184, 175);
 $background-color_7: lightskyblue;
 
 * {
@@ -101,8 +101,8 @@ li {
   background-color: $background-color_3;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
-  border-radius: 5%;
+  width: 375%;
+  border-radius: 40px;
   div {
     width: 50%;
     display: flex;
